@@ -1,0 +1,32 @@
+{
+  "name": "vt-pagination",
+  "description": "A headless vue pagination library to use with tailwind",
+  "version": "0.1.1",
+  "author": "sansil",
+  "main": "src/index.js",
+  "scripts": {
+    "test:unit": "vue-cli-service test:unit"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "peerDependencies": {
+    "vue": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sansil/vt-pagination.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sansil/vt-pagination/issues"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "tailwindcss",
+    "tailwindui",
+    "pagination"
+  ],
+  "license": "MIT"
+}
