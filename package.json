@@ -1,5 +1,5 @@
 {
-  "name": "s-paginate",
+  "name": "vt-paginate",
   "description": "A headless vue pagination library to use with tailwind",
   "version": "0.1.1",
   "author": "sansil",
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sansil/s-paginate.git"
+    "url": "https://github.com/sansil/vt-paginate.git"
   },
   "bugs": {
-    "url": "https://github.com/sansil/s-paginate/issues"
+    "url": "https://github.com/sansil/vt-paginate/issues"
   },
   "keywords": [
     "vue",

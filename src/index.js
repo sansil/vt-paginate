@@ -1,5 +1,5 @@
-import SPage from "./SPage.vue"
-import SPagination from "./SPagination.vue"
+import VTPage from "./VTPage.vue"
+import VTPagination from "./VTPagination.vue"
 
 
-export { SPagination, SPage };
+export { VTPagination, VTPage };
