@@ -1,4 +1,4 @@
-# vt-pagination
+# vt-paginate
 
 ## Installation
 
