@@ -1,11 +1,17 @@
-# vt-pagination
+# s-pagination
+
+## Installation
+
+```bash
+yarn add s-pagination
+```
 
 ## Usage
 
 ```vue
 <template>
   <div>
-    <VTPagination
+    <SPagination
       v-slot="{
         start,
         end,
@@ -58,7 +64,7 @@
                 class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700"
                 >...</span
               >
-              <VTPage
+              <SPage
                 v-for="page in pages"
                 :key="page"
                 :page="page"
@@ -68,7 +74,7 @@
                     : ''
                 "
                 class="-ml-px relative inline-flex items-center px-4 py-2 border border-gray-300 bg-white text-sm leading-5 font-medium text-gray-700 hover:text-gray-500 focus:z-10 focus:outline-none focus:border-blue-300 focus:shadow-outline-blue active:bg-gray-100 active:text-gray-700 transition ease-in-out duration-150"
-                >{{ page }}</VTPage
+                >{{ page }}</SPage
               >
               <span
                 v-show="isEllipsis.end"
@@ -93,12 +99,12 @@
           </div>
         </div>
       </div>
-    </VTPagination>
+    </SPagination>
   </div>
 </template>
 
 <script>
-import { VTPage, VTPagination } from "vt-pagination";
+import { SPage, SPagination } from "s-pagination";
 export default {
   components: {
     VTPagination,
